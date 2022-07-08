@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #ccc5b9;
+  margin: 0;
+  padding: 0;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 22px;
+  transition: background-color 0.3s cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.nav-container {
+  background-color: #fffcf2;
+  box-shadow: 0px 1px 4px 1px #252422;
+  color: #403d39;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-title,
+.nav-links {
+  width: 25%;
+  display: flex;
+}
+
+.nav-title {
+  font-size: 1.3em;
+  width: 50%;
+  margin: 0;
+  justify-content: center;
+}
+
+.nav-links {
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.nav-item {
+  list-style: none;
+  width: 40%;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.nav-item:first-child {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  /* transition: color 0.1s cubic-bezier(0.11, 0, 0.5, 0),
+    font-weight 0.1s cubic-bezier(0.11, 0, 0.5, 0); */
+}
+
+.nav-link:visited {
+  color: #403d39;
+}
+
+.nav-link:hover {
+  color: #252422;
+  font-weight: bold;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  border: none;
+  background-color: #252422;
+  color: #fffcf2;
+  font-size: 2em;
+  text-align: center;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px #252422;
+}
+
+.container-paragraph {
+  width: 500px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.container-color {
+  display: block;
+  text-align: center;
+}
+
+.container-button {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #252422;
+  box-shadow: 0px 1px 4px 1px #252422;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-family: "Edu SA Beginner", cursive;
+  background-color: transparent;
+  transition: background-color 0.3s cubic-bezier(0.11, 0, 0.5, 0),
+    color 0.3s cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.container-button:hover {
+  background-color: #252422;
+  color: #fffcf2;
+}
+
+.container-button-dark:hover {
+  background-color: #fffcf2;
+  color: #252422;
+}
+
+/* @media (max-width: 690px) {
+  .nav-title,
+  .nav-links {
+    width: 40%;
+  }
+} */
